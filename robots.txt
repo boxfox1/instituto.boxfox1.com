@@ -1,0 +1,27 @@
+User-agent: *
+
+# =========================
+# CONTENIDO PRINCIPAL
+# =========================
+Allow: /
+
+# =========================
+# BLOQUEOS TÉCNICOS (si existieran)
+# =========================
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /admin/
+
+# Evitar indexación con parámetros
+Disallow: /*?*
+Disallow: /*&*
+
+# =========================
+# ASSETS
+# =========================
+Allow: /assets/
+
+# =========================
+# SITEMAP
+# =========================
+Sitemap: https://instituto.boxfox1.com/sitemap.xml
